@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PersonalVocabulary</string>
+    <string name="registr_btn">Add new word</string>
+    <string name="login_btn">Repeat words</string>
+    <string name="save_new_word_btn">Save the word</string>
+    <string name="add_new_word_btn">New word</string>
+    <string name="text_new_word_fied">New word</string>
+    <string name="text_translation_fied">Translation</string>
+    <string name="text_main">My personal vocabulary</string>
+    <string name="text_userName_fied">User name</string>
+    <string name="text_min_value">From</string>
+    <string name="text_max_value">To</string>
+    <string name="text_repeat_words">Repeat words:</string>
+</resources>

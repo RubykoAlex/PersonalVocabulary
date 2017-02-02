@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.rey.material.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:background="#CCFFFFFF"
+    tools:context=".splash.SplashActivity">
+
+
+
+    <com.rey.material.widget.Button
+        android:id="@+id/new_word_btn"
+        android:layout_above="@+id/add_word_layout"
+        style="@style/RubykoButton"
+        android:text="@string/add_new_word_btn"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+
+
+    <LinearLayout
+        android:id="@+id/add_word_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                style="@style/RubykoImageTextView"
+                android:src="@drawable/ic_create_black_36dp" />
+
+            <alex.personalvocabulary.view.RubykoEditText
+                android:id="@+id/editText_new_word"
+                android:inputType="text"
+                android:hint="@string/text_new_word_fied"
+                style="@style/RubykoEditText"
+                app:et_inputId="@+id/editText_new_word_Edt"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                style="@style/RubykoImageTextView"
+                android:src="@drawable/ic_content_paste_black_36dp"/>
+
+            <alex.personalvocabulary.view.RubykoEditText
+                android:id="@+id/editText_translation"
+                android:inputType="text"
+                android:hint="@string/text_translation_fied"
+                style="@style/RubykoEditText"
+                app:et_inputId="@+id/editText_translation_Edt"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <com.rey.material.widget.Button
+        android:id="@+id/save_new_word_btn"
+        android:layout_below="@+id/add_word_layout"
+        style="@style/RubykoButton"
+        android:text="@string/save_new_word_btn"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+
+</com.rey.material.widget.RelativeLayout>

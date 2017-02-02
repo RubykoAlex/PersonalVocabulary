@@ -1,0 +1,89 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="RubykoEditText">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="et_supportSingleLine">false</item>
+        <item name="et_supportTextSize">14sp</item>
+        <item name="et_labelEnable">true</item>
+        <item name="et_labelTextSize">15sp</item>
+        <item name="et_labelTextColor">@android:color/secondary_text_light</item>
+        <item name="et_labelInAnim">@anim/anim_scale_in</item>
+        <item name="et_labelOutAnim">@anim/anim_scale_out</item>
+        <item name="et_supportMode">helper</item>
+        <item name="et_dividerAnimDuration">300</item>
+        <item name="et_dividerHeight">2dp</item>
+        <item name="et_dividerColor">@android:color/black</item>
+    </style>
+
+    <style name="RubykoImageTextView" >
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_gravity">center_vertical|start</item>
+        <item name="android:layout_width">24dp</item>
+        <item name="android:layout_height">24dp</item>
+    </style>
+
+    <style name="RubykoButton" parent="Material.Drawable.Ripple.Touch.Light">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@drawable/bg_window_dark</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">25sp</item>
+        <item name="rd_enable">true</item>
+        <item name="rd_cornerRadius">20dp</item>
+        <item name="rd_maxRippleRadius">match_view</item>
+        <item name="rd_rippleAnimDuration">300</item>
+    </style>
+
+    <style name="RepeatButton" parent="Material.Drawable.Ripple.Touch.Light">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@drawable/bg_window_dark</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">15sp</item>
+        <item name="rd_enable">true</item>
+        <item name="rd_cornerRadius">20dp</item>
+        <item name="rd_maxRippleRadius">match_view</item>
+        <item name="rd_rippleAnimDuration">300</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+    </style>
+
+    <style name="RepeatEditText">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">5dp</item>
+
+        <item name="et_labelEnable">true</item>
+        <item name="et_labelTextSize">10sp</item>
+        <item name="et_labelTextColor">@android:color/secondary_text_light</item>
+        <item name="et_labelInAnim">@anim/anim_scale_in</item>
+        <item name="et_labelOutAnim">@anim/anim_scale_out</item>
+
+        <item name="et_dividerAnimDuration">300</item>
+        <item name="et_dividerHeight">2dp</item>
+        <item name="et_dividerColor">@android:color/black</item>
+    </style>
+
+</resources>
